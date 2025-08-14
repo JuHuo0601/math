@@ -2,7 +2,7 @@ import qrcode
 from PIL import Image
 
 # 1. 配置二维码内容（替换为你的网页链接）
-web_url = "file:///C:/Users/%E6%B5%99%E6%B1%9F%E5%BD%AD%E4%BA%8E%E6%99%8F/Desktop/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/Untitled-1.html"  # 例如："https://math-modeling-club.example.com"
+https://github.com/JuHuo0601/math.git= "file:///C:/Users/%E6%B5%99%E6%B1%9F%E5%BD%AD%E4%BA%8E%E6%99%8F/Desktop/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/Untitled-1.html"  # 例如："https://math-modeling-club.example.com"
 
 # 2. 二维码基础设置（高容错率，确保清晰可扫）
 qr = qrcode.QRCode(
@@ -24,3 +24,4 @@ img = qr.make_image(
 # 4. 保存二维码图片
 img.save("math_modeling_qr.png")
 print("二维码生成成功！文件名为：math_modeling_qr.png")
+
